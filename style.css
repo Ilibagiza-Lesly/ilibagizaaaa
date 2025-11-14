@@ -19,6 +19,49 @@ nav a {
     color: #333; /* dark color for nav links */
     font-weight: 600;
 }
+/* Header layout */
+.site-header {
+    text-align: center;
+    background: #f5f6f0; /* light nude military green */
+    padding: 20px 10px;
+}
+
+/* Logo */
+.logo-container .logo {
+    font-size: 36px;
+    font-weight: 700;
+    color: #556b2f; /* military green */
+}
+
+.logo-container .tagline {
+    font-size: 16px;
+    color: #333;
+    margin-top: 4px;
+}
+
+/* Navigation below logo */
+.main-nav {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+.main-nav a:hover {
+    background: #556b2f;
+    color: white;
+}
 
 /* Logo */
 .logo {
